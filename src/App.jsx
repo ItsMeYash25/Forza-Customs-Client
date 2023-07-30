@@ -28,7 +28,7 @@ import Appointment from "./service/Appointment";
 import AppointmentUpdate from "./service/AppointmentUpdate";
 
 function App() {
-  axios.defaults.baseURL = "http://localhost:4000/api";
+  axios.defaults.baseURL = "https://forzacustoms.vercel.app/api";
   const { user } = AuthState();
   return (
     <Router>

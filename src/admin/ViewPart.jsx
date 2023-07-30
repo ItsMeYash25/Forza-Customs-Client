@@ -66,10 +66,7 @@ const ViewPart = () => {
               <tr key={part._id}>
                 <td className="w-25">
                   <img
-                    src={
-                      "https://forza-customs-x699-lt1e85fjy-itsmeyash25.vercel.app/" +
-                      part.imageURL
-                    }
+                    src={"https://forzacustoms.vercel.app/" + part.imageURL}
                     alt=""
                     style={{ width: "10%", height: "10%" }}
                   />

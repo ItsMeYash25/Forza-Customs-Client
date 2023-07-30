@@ -23,7 +23,7 @@ function OrderParts() {
       <PartContainer
         key={part._id}
         id={part._id}
-        img={"https://forzacustoms.vercel.app/" + part.imageURL}
+        img={`https://forzacustoms.vercel.app/` + part.imageURL}
         part={part.name}
         price={part.price}
       />

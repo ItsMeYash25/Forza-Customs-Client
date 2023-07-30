@@ -66,7 +66,7 @@ const ViewPart = () => {
               <tr key={part._id}>
                 <td className="w-25">
                   <img
-                    src={part.poster.url}
+                    src={part?.poster?.url}
                     alt=""
                     style={{ width: "10%", height: "10%" }}
                   />

@@ -23,7 +23,7 @@ function OrderParts() {
       <PartContainer
         key={part._id}
         id={part._id}
-        img={part.poster.url}
+        img={part?.poster?.url}
         part={part.name}
         price={part.price}
       />
